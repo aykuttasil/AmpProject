@@ -1,0 +1,130 @@
+<!doctype html>
+<html amp lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-dailymotion" src="https://cdn.ampproject.org/v0/amp-dailymotion-0.1.js"></script>
+    <title>Hello, AMP Project</title>
+    <link rel="canonical" href="http://example.ampproject.org/article-metadata.html" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "AMP Deneme",
+        "datePublished": "2016-11-23T12:02:41Z",
+        "image": [
+          "aykut.png"
+        ]
+      }
+    </script>
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+        
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+        
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+        
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+        
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+        
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+    </style>
+    <noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+    <style amp-custom>
+        /* any custom style goes here */
+        
+        body {
+            background-color: white;
+        }
+        
+        #content {
+            margin: 0 auto;
+            width: 960px;
+        }
+        
+        amp-img {
+            background-color: gray;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Welcome to the mobile web</h1>
+        <amp-img src="aykut.png" alt="Welcome" height="400" width="800" layout="responsive"></amp-img>
+        <amp-dailymotion data-videoid="x2m8jpp" layout="responsive" data-ui-highlight="FF4081" width="480" height="270"></amp-dailymotion>
+    </div>
+</body>
+
+</html>
+<!--
+Belge tipiyle <!doctype html> başlamalıdır.
+
+Üst seviye bir <html ⚡> etiketi içermelidir (<html amp> de kabul edilir).
+
+<head> ve <body> etiketleri içermelidir (HTML›de isteğe bağlıdır).
+
+Başında AMP HTML belgesinin düzenli HTML sürümünü ya da böyle bir HTML versiyonu mevcut değilse kendisini gösteren bir <link rel="canonical" href="$SOME_URL" /> etiketi içerir.
+
+Baş etiketin ilk ürünü olarak <meta charset="utf-8"> etiketini içerir.
+
+Baş etiketin içerisinde bir <meta name="viewport" content="width=device-width,minimum-scale=1"> etiketi içerir. initial-scale=1›in de eklenmesi önerilir.
+
+Başında en son öge olarak<script async src="https://cdn.ampproject.org/v0.js"></script> etiketini içerir (Buna AMP JS kitaplığı da eklenip yüklenir).
+
+<head> etiketinde aşağıdakileri içerir: 
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+-->
